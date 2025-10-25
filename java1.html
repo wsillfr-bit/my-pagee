@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+
+<style>
+    body {
+        background-image: url("https://textur.gas-kvas.com/uploads/posts/2024-10/textur-gas-kvas-com-i51d-p-tekstura-fon-kosmos-1.jpg");
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: center;
+    }
+    button {
+        color: rgb(85, 74, 43);
+        padding: 10px 15px;
+        background-color: rgb(11, 11, 83);
+    }
+
+#opis {
+    visibility: hidden;
+}
+
+ </style>
+</head>
+
+<body>
+
+<div>
+    <img src="https://compote.slate.com/images/5294e6d0-53ed-4a4a-a350-7eaeab72ac93.jpeg?crop=1560%2C1040%2Cx0%2Cy0" alt="lorem" style="width: 700px; height: auto; margin-right: 100px;">
+    <img src="https://y4pdgnepgswqffpt.public.blob.vercel-storage.com/plugins/67-rT9rTQMRmGpqyLAUh3O6fKwK1UQIhT" alt="ipsum" style="width: 400px; height: auto;">
+</div>
+
+
+ <button onclick="PokazUkryjOpis();">Pokaż/Ukryj opis</button>
+ <div id="opis"> 
+<p>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus vel fuga quo perspiciatis, voluptas praesentium quam expedita ab harum distinctio maiores eveniet neque officiis nam quas. Quae et magnam fuga!
+</p>
+</div>
+ 
+<a href="https://example.com">Перейти на example.com</a>
+
+
+ <script>
+    function PokazUkryjOpis() {
+        const opis = document.getElementById('opis');
+        if (opis.style.visibility == 'hidden') {
+            opis.style.visibility = "visible";
+        }
+    else {
+        opis.style.visibility = "hidden";
+    }
+    }
+ </script>
+ 
+
+</body>
+</html>
